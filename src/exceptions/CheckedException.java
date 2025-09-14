@@ -7,7 +7,7 @@ public class CheckedException {
         try{
             System.out.println(a/b);
         } catch (ArithmeticException e){
-            System.out.println("ошибка: " + e.getMessage());
+            System.out.println("ошибка: на 0 делить нельзя");
         }
     }
 }
