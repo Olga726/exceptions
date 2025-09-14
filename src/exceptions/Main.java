@@ -1,5 +1,8 @@
 package exceptions;
 
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+
 public class Main {
     public static void main(String[] args) {
         // 1. Напишите программу, которая пытается открыть файл с именем "data.txt".
