@@ -27,7 +27,7 @@ public class Main {
         }
         
         //4
-        MailChecker.checkMail("11119");
+        // MailChecker.checkMail("test@mail.com");
 
         //5
         Box<String> stringBox = new Box<>();
