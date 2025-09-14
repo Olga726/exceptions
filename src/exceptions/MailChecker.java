@@ -10,10 +10,7 @@ public class MailChecker {
     public static void checkMail (String mail){
         String regex = "^[\\w._%+-]+@[\\w.-]+\\.[A-Za-z]{2,6}$";
 
-        Pattern pattern = Pattern.compile(regex);
-        Matcher matcher = pattern.matcher(mail);
-
-        if(!mail.matches(regex)){
+        if(!Pattern.matches(regex, mail)){
             throw new UncheckedException("Невалидный email");
         }
         System.out.println("email валидный: " + mail);
